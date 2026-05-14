@@ -14,7 +14,7 @@ variable "sg_description" {
   default     = ""
 }
 
-variable "aws_vpc.main.id" {
+variable "vpc_id" {
   type        = string
 }
 

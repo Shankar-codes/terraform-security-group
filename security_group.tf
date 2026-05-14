@@ -1,7 +1,7 @@
 resource "aws_security_group" "main" {
   name        = var.sg_name
   description = var.sg_description
-  vpc_id      = var.aws_vpc.main.id
+  vpc_id      = var.vpc_id
 
   egress {
     from_port        = 0
